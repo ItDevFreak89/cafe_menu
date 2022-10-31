@@ -10,7 +10,7 @@ const CoffeeContent = () => {
   const [items, setItems] = useState(JSON.parse(localStorage.getItem("menu-coffee")) ||[]);
 
   useEffect(() => {
-    localStorage.setItem('menu-desserts', JSON.stringify(items));
+    localStorage.setItem('menu-coffee', JSON.stringify(items));
   }, [items]);
 
   const addProduct = (e) => {
