@@ -1,0 +1,43 @@
+.link_btn_home {
+  position: absolute;
+  font-size: 1rem;
+  top: 5px;
+  right: 10px;
+  padding: 4px 10px;
+  background-color: rgba(239, 131, 59, 0.971);
+  border-radius: 8px;
+  box-shadow: 1px 1px 1px 1px rgb(36, 34, 34);
+}
+
+.link_btn:hover {
+  background-color: rgba(119, 62, 24, 0.911);
+}
+.link_btn:active {
+  transform: translateY(2px);
+}
+.link_btn_edit {
+  position: absolute;
+  font-size: 1rem;
+  top: 5px;
+  right: 10px;
+  padding: 4px 10px;
+  background-color: rgba(239, 131, 59, 0.971);
+  border-radius: 8px;
+  box-shadow: 1px 1px 1px 1px rgb(36, 34, 34);
+}
+
+.link_btn:hover {
+  background-color: rgba(119, 62, 24, 0.911);
+}
+.link_btn:active {
+  transform: translateY(2px);
+}
+
+button:hover {
+  background-color: rgb(194, 116, 60);
+  cursor: pointer;
+}
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+}

@@ -1,0 +1,29 @@
+body {
+  margin:0;
+  background-image: url(https://images.pexels.com/photos/4946999/pexels-photo-4946999.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  font-family: sans-serif;
+  padding: 0px;
+}
+.cafe_menu {
+  width: 80%;
+  background-color: burlywood;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 35px;
+  max-width: 500px;
+  position: relative;
+  background: rgba( 255, 255, 255, 0.30 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 6px );
+-webkit-backdrop-filter: blur( 6px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+}
+
+
+h1, h2{
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+

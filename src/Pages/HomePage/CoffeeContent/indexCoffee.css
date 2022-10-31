@@ -1,0 +1,63 @@
+/* COFFE_CONTENT */
+
+hr {
+    height: 2px;
+    background-color: brown;
+    border-color: brown;
+  }
+
+  .bottom-line {
+    margin-top: 25px;
+  }
+
+h2 {
+    font-size: 30px;
+    text-align: center;
+    font-family: Impact, serif;
+  }
+
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .item p {
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 7px;
+    font-size: 18px;
+  }
+  
+  .flavor{
+    text-align:left;
+    width: 70%;
+  }
+  
+  .price {
+    text-align: center;
+    width: 30%;
+  }
+
+  .DELETE-ME{
+    display:flex;
+    justify-content: space-between;
+  }
+ 
+  .edit_Page_btn{
+    position:absolute;
+    font-size: 1rem;
+    top:95px;
+    right: 50px;
+    padding: 4px 10px;
+    background-color: rgba(155, 78, 27, 0.911);
+    color: white;
+    border-radius: 8px;
+    box-shadow: 1px 1px 1px 1px rgb(36, 34, 34);
+  }
+  .edit_desserts_btn:hover{
+    background-color: rgba(119, 62, 24, 0.911);
+  }
+  .edit_desserts_btn:active{
+transform: translateY(2px);
+  }
